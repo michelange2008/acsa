@@ -1,0 +1,42 @@
+:root {
+  --vert: #46b132ff;
+  --vert-clair: #abe4a0ff;
+  --otobleu : #125e6b;
+  --otobleutrans : #125e6bcc;
+  --otobleuclair: #21aac2;
+  --otojaune : #dadf21;
+  --otojaunefonce : #6b6d10;
+  --otorange : #f58021;
+  --otorangefonce: #904b13;
+}
+
+body {
+  background-color: var(--vert);
+}
+
+.img-50 {
+  max-width: 50px;
+}
+
+.img-100 {
+  max-width: 100px;
+}
+
+
+.img-200 {
+  max-width: 200px;
+}
+
+.bg-vert-clair {
+  background-color: var(--vert-clair);
+}
+
+.btn-otobleu {
+  background: var(--otobleu) !important;
+  color: white !important;
+}
+
+.btn-otobleu:hover {
+  color: black !important;
+  background: var(--otobleuclair) !important;
+}
