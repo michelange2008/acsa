@@ -22,9 +22,12 @@ body {
   max-width: 100px;
 }
 
-
 .img-200 {
   max-width: 200px;
+}
+
+.img-300 {
+  max-width: 300px;
 }
 
 .bg-vert-clair {
